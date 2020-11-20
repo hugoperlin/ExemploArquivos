@@ -19,7 +19,7 @@ public class MainScanner {
                 String linha = scan.nextLine();
                 System.out.println(linha);
             }
-            
+
         }catch (IOException e){
             System.out.println("Erro de arquivo!! "+e.getMessage());
         }
