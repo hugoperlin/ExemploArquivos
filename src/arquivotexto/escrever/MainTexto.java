@@ -14,9 +14,11 @@ public class MainTexto {
             FileWriter fw = new FileWriter(file);
             BufferedWriter bw = new BufferedWriter(fw);
 
-            bw.write("Esta é uma linha de um arquivo");
+            bw.write("Esta é uma linha de um arquivo 123");
             bw.newLine();
             bw.write("Se quiser escrever um número:"+10);
+            bw.newLine();
+            bw.write("Se quiser escrever um número:"+1000);
             bw.newLine();
 
             bw.close();

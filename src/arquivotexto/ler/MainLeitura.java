@@ -14,6 +14,7 @@ public class MainLeitura {
                                 new File("UmArquivo.txt")))){
 
             String linha;
+
             while((linha = br.readLine())!=null ){
                 System.out.println(linha);
             }
